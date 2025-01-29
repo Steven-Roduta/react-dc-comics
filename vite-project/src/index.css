@@ -1,3 +1,57 @@
-.title{
-  color: red;
+/* -----------
+  RESET
+--------------*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------
+  GENERAL
+------------- */
+body{
+  font-family: "Be Vietnam Pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* -------------
+  HEADER
+---------------- */
+header{
+  min-height: 100px;
+}
+
+.logo{
+  margin-left: 200px; 
+  margin-top: 20px;
+  width: 20px;
+  height: 30px;
+}
+
+.list a{
+  list-style: none;
+  float: right;
+  color: #1c1c1c;
+  font-size: 15px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.list ul li{
+  
+  display: inline;
+  text-align: center;
+  gap: 50px;
+  position: relative;
+  right: 150px;
+
+}
+
+.list:hover li a{
+  color: #0282f9;
+  cursor:pointer;
+  transition: 0.3s;
 }
