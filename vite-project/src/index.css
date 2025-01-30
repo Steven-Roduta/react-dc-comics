@@ -11,9 +11,26 @@
   GENERAL
 ------------- */
 body{
-  font-family: "Be Vietnam Pro", serif;
-  font-weight: 400;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
   font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* ------------
+  IMAGES
+-------------- */
+.dc .buy {
+display: flex;
+justify-content:space-between;
+width:60px;
+height: 60px;
+padding: 10px;
+margin: 10px;
+margin-right: 80px;
+gap:10px;
+
 }
 
 
@@ -26,7 +43,6 @@ header{
 
 .logo{
   margin-left: 200px; 
-  margin-top: 20px;
   width: 20px;
   height: 30px;
 }
@@ -38,6 +54,8 @@ header{
   font-size: 15px;
   margin-left: 20px;
   text-decoration: none;
+  position: relative;
+  top: 10px;
 }
 
 .list ul li{
@@ -50,8 +68,141 @@ header{
 
 }
 
-.list:hover li a{
+
+a:hover{
   color: #0282f9;
   cursor:pointer;
   transition: 0.3s;
+}
+
+/* ------------
+  MAIN
+--------------*/
+
+main{
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.content{
+  background-color:#1c1c1c;
+  color: aliceblue;
+  height: 100px;
+}
+
+h3{
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 130px;
+  position: relative;
+  top: 30px;
+}
+
+.dc{
+  background-color: #0282f9;
+  color: aliceblue;
+  height: 100px;
+  position: relative;
+  bottom: 10px;
+}
+
+.buy p{
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 18px;
+  position: absolute;
+  bottom: 5px;
+  padding: 47px;
+}
+
+.dc ul li {
+  display: inline-block;
+  text-align: center;
+  flex-direction: column-reverse;
+  margin-left: 100px;
+}
+
+/* --------------
+  FOOTER
+----------------*/
+footer{
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+  height:400px;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+/* prima lista */
+h3 {
+  color: white;
+  margin-left: 500px;
+  
+  
+}
+
+.list-comics ul li p{
+list-style: none;
+margin-left: 500px;
+position: relative;
+top: 40px;
+color: #646a6c;
+
+}
+
+/* seconda lista */
+
+.list-dc h4{
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.list-dc ul li{
+display: flex;
+justify-content: center;
+list-style: none;
+position: relative;
+bottom: 200px;
+vertical-align: inherit;
+}
+
+p{
+  color: #646a6c;
+  position: relative;
+  
+}
+
+p:hover{
+  color: white;
+}
+
+.list-comics ul li p:hover{
+  color: white;
+}
+
+/* terza lista */
+
+.sites ul{
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  position: relative;
+  bottom: 430px;
+}
+
+h2{
+  color: white;
+}
+
+.sites p:hover{
+  color: white;
+}
+
+.site nav{
+  height: 0;
 }
