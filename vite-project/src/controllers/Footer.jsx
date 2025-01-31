@@ -139,5 +139,36 @@ export default function Footer() {
                 </ul>
             </nav>
         </div>
+        <div className="image">
+        </div>
+        <div className="sign">
+            <button>SIGN-UP NOW</button>
+
+            <div className="apps">
+                <nav>
+                    <ul>
+                        <li>
+                            <img src="/img/footer-periscope.png" alt="foot" />
+                        </li>
+                        <li>
+                            <img src="/img/footer-pinterest.png" alt="foot" />
+                        </li>
+                        <li>
+                            <img src="/img/footer-youtube.png" alt="foot" />
+                        </li>
+                        <li>
+                            <img src="/img/footer-twitter.png" alt="foot" />
+                        </li>
+                        <li>
+                            <img src="/img/footer-facebook.png" alt="foot" />
+                        </li>
+
+                        <li>
+                            <h5>FOLLOW US</h5>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </footer>
 }

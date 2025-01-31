@@ -138,14 +138,14 @@ footer{
 /* prima lista */
 h3 {
   color: white;
-  margin-left: 500px;
+  margin-left: 100px;
   
   
 }
 
 .list-comics ul li p{
 list-style: none;
-margin-left: 500px;
+margin-left: 100px;
 position: relative;
 top: 40px;
 color: #646a6c;
@@ -161,12 +161,11 @@ color: #646a6c;
 }
 
 .list-dc ul li{
-display: flex;
-justify-content: center;
 list-style: none;
 position: relative;
 bottom: 200px;
 vertical-align: inherit;
+margin-left: 250px;
 }
 
 p{
@@ -186,23 +185,87 @@ p:hover{
 /* terza lista */
 
 .sites ul{
-  text-align: center;
   list-style: none;
   text-decoration: none;
-  margin-bottom: 100px;
-  margin-left: 350px;
+  margin-left: 380px;
   position: relative;
-  bottom: 430px;
+  bottom: 450px;
+
 }
 
 h2{
   color: white;
+  margin: 10px;
+  position: relative;
+  right: 10px;
 }
 
-.sites p:hover{
+.sites ul p:hover{
   color: white;
 }
 
 .site nav{
   height: 0;
+}
+
+.image{
+  background-image: url(../public/img/dc-logo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 450px;
+  width: 450px;
+  float: right;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+  bottom: 650px;
+}
+
+/* sign in */
+.sign{
+  height: 100px;
+  width: 100%;
+  background-color: #303030;
+  position: relative;
+  bottom: 300px;
+}
+
+button{
+  font-size: 15px;
+  padding: 10px;
+  border-color: #0282f9;
+  color: white;
+  background-color: transparent;
+  margin-left: 100px;
+  margin-top:22px;
+}
+
+h5{
+  color: #0282f9;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.apps li{
+  list-style: none;
+  float: right;
+  position: relative;
+  left: 250px;
+  bottom: 35px;
+  margin-left: 20px;
+}
+
+.apps li{
+  gap: 10px;
+}
+
+button:hover{
+  color: #0282f9;
+}
+
+h5:hover{
+  color: aliceblue;
 }
