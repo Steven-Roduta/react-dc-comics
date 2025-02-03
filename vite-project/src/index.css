@@ -75,6 +75,10 @@ a:hover{
   transition: 0.3s;
 }
 
+/* --------------
+  COMIC SECTION 
+-----------------*/
+
 /* ------------
   MAIN
 --------------*/
@@ -83,6 +87,8 @@ main{
   min-height: 100%;
   min-width: 100%;
 }
+
+/* img background */
 
 .content{
   background-color:#1c1c1c;
@@ -268,4 +274,8 @@ button:hover{
 
 h5:hover{
   color: aliceblue;
+}
+
+img:hover{
+  color: white;
 }

@@ -1,5 +1,10 @@
+import ComicData from "./comicdata"
+
 export default function Main() {
-    return <main>
+    return (
+        <main>
+
+        <ComicData/>
         
         <div className="content">
             <h3>➡️ Content Goes Here⬅️</h3>
@@ -50,4 +55,5 @@ export default function Main() {
             </nav>
         </div>
     </main>
+    )
 }

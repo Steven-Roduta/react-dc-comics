@@ -51,5 +51,6 @@ export default function Header() {
                 </ul>
            </nav>
         </div>
+        <div className="hero"></div>
     </header>
 }
